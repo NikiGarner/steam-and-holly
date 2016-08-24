@@ -1,0 +1,36 @@
+<h1>New Item</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        {{input value=name id="name"}}
+      </div>
+
+      <div class="form-group">
+        <label for="cost">Cost</label>
+        {{input type="number" value=cost id="cost"}}
+      </div>
+
+      <div class="form-group">
+        <label for="details">Details</label>
+        {{input value=details id="details"}}
+      </div>
+
+      <div class="form-group">
+        <label for="category">Category</label>
+        {{input value=category id="category" placeholder="Seasonal or Regular"}}
+      </div>
+
+      <div class="form-group">
+        <label for="featured">Featured</label>
+        {{input type="checkbox" name="featured" checked=featured id="featured"}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image</label>
+        {{input value=image id="image"}}
+      </div>
+
+      <button {{action 'save'}}>Save</button>
+    </form>
+  </div>

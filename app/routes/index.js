@@ -4,7 +4,7 @@ export default Ember.Route.extend({
   model() {
     return this.store.query('item', {
       orderBy: 'featured',
-      equalTo: 'true'
+      equalTo: true
     })
   }
 });
