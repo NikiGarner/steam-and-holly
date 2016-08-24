@@ -1,0 +1,34 @@
+{ "items": [{
+  "name": "pilsner",
+  "cost": "3.99",
+  "details": "a fine american pilsner",
+  "category": "regular",
+  "feedbacks": [],
+  "featured": "false",
+  "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=400"
+  }, {
+    "name": "ale",
+    "cost": "2.99",
+    "details": "a yummy ale",
+    "category": "regular",
+    "feedbacks": [],
+    "featured": "true",
+    "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=400"
+  }, {
+    "name": "bock",
+    "cost": "3.99",
+    "details": "a fine bock",
+    "category": "seasonal",
+    "feedbacks": [],
+    "featured": "true",
+    "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=400"
+  }, {
+    "name": "winter wheat",
+    "cost": "3.99",
+    "details": "a fine winter wheat",
+    "category": "seasonal",
+    "feedbacks": [],
+    "featured": "false",
+    "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=400"
+  }]
+}
