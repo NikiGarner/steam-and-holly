@@ -1,4 +1,8 @@
-{{#link-to 'index'}}Home{{/link-to}} |
-{{#link-to 'category' 'seasonal'}}Seasonal Brews{{/link-to}} |
-{{#link-to 'category' 'regular'}}Regular Brews{{/link-to}} |
- {{shoppingCart.items.length}} items in {{#link-to 'cart'}}Shopping Cart{{/link-to}}
+<div class="main-nav navbar-left">
+  {{#link-to 'index'}}Home{{/link-to}} |
+  {{#link-to 'category' 'seasonal'}}Seasonal Brews{{/link-to}} |
+  {{#link-to 'category' 'regular'}}Regular Brews{{/link-to}}
+</div>
+<div class="cart-nav navbar-right">
+  {{shoppingCart.items.length}} items in {{#link-to 'cart'}}Shopping Cart{{/link-to}}
+</div>

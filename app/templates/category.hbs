@@ -1,6 +1,9 @@
 <div class="row">
+  <p>
+    {{categoryName}}
+  </p>
   {{#each model as |item|}}
-  <div class="col-md-6">
+  <div class="col-md-6 feature-layout">
       {{featured-items-tile item=item}}
   </div>
   {{/each}}

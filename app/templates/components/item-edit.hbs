@@ -1,0 +1,38 @@
+<h1>Edit Item</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        {{input value=name id="name" placeholder=item.name}}
+      </div>
+
+      <div class="form-group">
+        <label for="cost">Cost</label>
+        {{input type="number" value=cost id="cost" placeholder=item.cost}}
+      </div>
+
+      <div class="form-group">
+        <label for="details">Details</label>
+        {{input value=details id="details" placeholder=item.details}}
+      </div>
+
+      <div class="form-group">
+        <label for="category">Category</label>
+        {{input value=category id="category" placeholder=item.category}}
+      </div>
+
+      <div class="form-group">
+        <label for="featured">Featured</label>
+        {{input type="checkbox" name="featured" checked=item.featured}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image</label>
+        {{input value=image id="image" placeholder=item.image}}
+      </div>
+
+      <button {{action 'update' item}}>Save</button>
+    </form>
+  </div>
+
+  <button {{action 'delete' item}}>Delete</button>

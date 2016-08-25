@@ -1,8 +1,67 @@
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One';
+body {
+  font-family: 'Fjalla One', sans-serif;
+}
 .logo{
   display: flex;
   justify-content: center;
 }
+.jumbotron {
+  background-image: url('images/beer.jpg');
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-h4 {
-  font-size: 4em;
+.jumbo-text-contain {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 30%;
+}
+ .jumbo-text {
+   background: gold;
+   font-size: 4em;
+ }
+
+.feature-layout{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.featured-img {
+  max-width: 350px;
+}
+.item-info{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background: white;
+  border: 1px solid black;
+  color: black;
+}
+
+button {
+  background: white;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background: white;
+  border: 1px dotted black;
+  color: black;
+}
+.btn-primary:active {
+  background: white;
+  border: 1px dotted black;
+  color: black;
+}
+.btn-primary:disabled {
+  background: white;
+  border: 1px dotted black;
+  color: black;
 }

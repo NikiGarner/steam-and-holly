@@ -1,0 +1,5 @@
+<ul>
+  {{#each model as |item|}}
+    <li>{{item.name}}{{#link-to 'admin.edit' item.id}} | Edit{{/link-to}}</li> 
+  {{/each}}
+</ul>
